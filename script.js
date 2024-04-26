@@ -1,6 +1,6 @@
 function generatePassword() {
     const value = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()";
-    const len = 16;
+    const len = 8;
     let password = "";
 
     for (let i = 0; i < len; i++) {
